@@ -55,7 +55,7 @@ body main ul{
     width : 40%;
     text-align: center;
     border: 2px solid #1434A4;
-    height: 400px;
+    height: 350px;
     margin: 0 4%;
 }
 
@@ -93,8 +93,9 @@ body main ul{
 }
 
 @media only screen and (max-width: 767px) {
-    .asideRight{
-        height: 600px;
+     .asideRight{
+        height: 740px;
+        border-image-repeat: stretch;
     }
 
     div.container{
