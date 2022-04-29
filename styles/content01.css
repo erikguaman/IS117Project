@@ -107,4 +107,8 @@ body h6{
         text-align: center;
     }
 
+    div.image{
+        margin: 0 18%;
+    }
+    
 }
