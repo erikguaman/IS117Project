@@ -1,0 +1,155 @@
+
+/* DEVELOPER Erik Guaman, IS117-004, Spring 2022 */
+
+header{
+    padding-left: 5%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: 100%;
+    background-color: #fd882d;
+}
+
+header img{
+    float: left;
+    height: 90px;
+    width: 100px;
+    border: 2px solid #1434A4;
+    margin-right: 15px;
+}
+
+header h2{
+    padding: 20px;
+    margin-bottom: 0;
+    color: #236CA7;
+    font-family: Optima, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(
+            30deg, #fd882d 25%, white 50%, #fd882d 75%);
+}
+
+body p{
+    padding: 10px 30px 0 30px;
+    font-family: Times, Times New Roman, serif;
+    font-size: large;
+}
+
+body main{
+    padding: 0 18%;
+    margin-bottom: 10%;
+}
+
+body main div h4{
+    font-family: Apple Chancery, cursive;
+    color: #236CA7;
+    font-weight: bolder;
+}
+
+body main div p{
+    font-family: Georgia, serif;
+}
+
+main img{
+    height: 140px;
+    width: 150px;
+    border: 2px solid #1434A4;
+}
+
+.marginbox{
+    margin: 80px;
+}
+
+.alignText{
+    padding: 0;
+}
+
+.goRight{
+    float: right;
+    margin-left: 25px;
+}
+
+.goLeft{
+    float: left;
+    margin-right: 25px;
+}
+
+#collapsibleNavbar ul li{
+    float: left;
+    text-align: center;
+    padding-left: 30%;
+}
+
+.dropdown-menu{
+    width: 100%;
+    text-align: center;
+}
+
+.container-fluid{
+    width: 100%;
+    margin: 0 12px 0 12px;
+    padding: 0 0 20px 0;
+}
+
+.navbar-brand{
+    padding-left: 6%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.75rem;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .marginbox{
+        float: left;
+        margin: 8% 0 12% 0;
+        width: 100%;
+    }
+
+    .goRight{
+        margin: 0;
+    }
+
+    .goLeft{
+        margin: 0;
+    }
+
+    .marginbox img{
+        width: 100%;
+        height: 250px;
+        margin-bottom: 3%;
+    }
+
+    div h4, div p{
+        text-align: left;
+        width: 100%;
+        float: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    div.container{
+        padding: 5% 20%;
+    }
+
+    #collapsibleNavbar ul li{
+        text-align: left;
+        float: left;
+        padding-left: 11%;
+    }
+
+    .dropdown-menu{
+        width: 25%;
+        text-align: center;
+    }
+
+}

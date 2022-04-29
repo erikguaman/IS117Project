@@ -1,0 +1,132 @@
+
+/* DEVELOPER Erik Guaman, IS117-004, Spring 2022 */
+
+nav ul{
+    float: left;
+    width: 17%;
+}
+
+header{
+    padding-left: 5%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: 100%;
+    background-color: #236CA7;
+}
+
+header img{
+    float: left;
+    height: 90px;
+    width: 100px;
+    border: 2px solid #1434A4;
+    margin-right: 15px;
+
+}
+
+header h2{
+    padding: 20px;
+    margin-bottom: 0;
+    color: #fd882d;
+    font-family: Optima, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(
+            30deg, #236CA7 25%, white 50%, #236CA7 75%);
+}
+
+body h5, body p{
+    text-align: center;
+}
+
+body h5{
+    color: darkorange;
+}
+
+body p{
+    color: black;
+}
+.alignCard{
+    margin: 4%;
+}
+.page-container{
+    margin-bottom: 20px;
+}
+
+
+#collapsibleNavbar ul li{
+    float: left;
+    text-align: center;
+    padding-left: 65%;
+    color: #fb8500;
+}
+
+.dropdown-menu{
+    width: 100%;
+    text-align: center;
+}
+
+.container-fluid{
+    width: 100%;
+    margin: 0 12px 0 12px;
+    padding: 0 0 20px 0;
+}
+
+.navbar-brand{
+    padding-left: 6%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 4%;
+    margin-bottom: 4%;
+    display:inline-block;
+    background-color: darkorange;
+}
+
+.card p{
+    color: white;
+}
+
+.card h4{
+    color: #0047AB;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 4px 16px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.75rem;
+}
+
+@media only screen and (max-width: 767px) {
+    header h2{
+        text-align: center;
+    }
+
+    header img{
+        margin-right: 0;
+    }
+    .card{
+        display: block;
+        width: 50%;
+        margin: 5% 25% 10%;
+    }
+}
